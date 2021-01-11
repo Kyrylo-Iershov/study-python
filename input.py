@@ -1,4 +1,4 @@
 user_name = input(" your name ")
 print(" Hello " + user_name + " ! ")
-user_age = input(" your age ")
-print(user_name + " is " + user_age + " ! ")
+user_age = int(input(" your age "))
+print(user_name + " is " + str(user_age) + " ! ")
