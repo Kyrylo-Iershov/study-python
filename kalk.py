@@ -1,5 +1,6 @@
 num1 = int(input(" Number 1 "))
 num2 = int(input(" Number 2 "))
+fun = (input(" Function "))
 res1 = num1 / num2
 res2 = num1 * num2
 res3 = num1 + num2
