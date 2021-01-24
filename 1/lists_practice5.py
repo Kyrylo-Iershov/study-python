@@ -7,3 +7,4 @@ print(queue[num])
 print(len(queue))
 half_list = len(queue)//2
 print(queue[half_list])
+print(queue.count("J"))
