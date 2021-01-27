@@ -12,8 +12,4 @@ for x in str:
         count += 1
 print(count)
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-sum = 0
-for y in list:
-    if y == 0 and y < 10:
-        count += 10
-print(count)
+print(sum(list))
