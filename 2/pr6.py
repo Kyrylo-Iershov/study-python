@@ -1,2 +1,6 @@
 numbers = list(range(1, 20, 2))
 print(numbers)
+a = int(input(" From : "))
+b = int(input(" To : "))
+chz = list(range(a, b, 1))
+print(chz)
