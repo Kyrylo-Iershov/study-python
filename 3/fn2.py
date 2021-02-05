@@ -5,10 +5,13 @@ text2 = list(confirm)
 
 
 def correct_password():
-    if text1 == text2:
-        print("Correct ! ")
-    elif text1 != text2:
-        print(" Incorrect, try again !")
+    while True:
+        if text1 == text2:
+            print(" Correct ! ")
+            break
+        elif text1 != text2:
+            print(" Try again ! ")
+            break
 
 
 correct_password()
